@@ -1,0 +1,103 @@
+/* ===== Hero Section ===== */
+.hero-section {
+  min-height: 100vh;
+  background-color: #ffffff; /* Light mode background */
+  padding-top: 100px; /* Space for fixed navbar */
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important; /* NEW - space between text & image */
+  width: 100% !important;
+}
+
+/* Headings */
+.hero-section h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.hero-section .highlight {
+  color: #60FF04; /* Brand green highlight */
+}
+
+/* Paragraph text */
+.hero-section p {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 600px;
+}
+
+/* ===== CTA Button ===== */
+.btn-cta {
+  background-color: #60FF04 !important; /* Primary brand color */
+  border: none;
+  color: #000000; /* Black text for contrast */
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 8px; /* Modern, slightly rounded edges */
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.btn-cta:hover {
+  background-color: #4fd403; /* Slightly darker on hover */
+  transform: translateY(-2px);
+}
+
+
+
+/* Dark Mode */
+
+
+
+/* ===== Hero Image ===== */
+.hero-img {
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  max-width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.hero-img:hover {
+  transform: scale(1.02);
+}
+
+/* ===== Dark Mode ===== */
+[data-bs-theme="dark"] .hero-section {
+  background-color: #000000;
+}
+
+[data-bs-theme="dark"] .hero-section p {
+  color: #ccc;
+}
+
+[data-bs-theme="dark"] .btn-cta {
+  background-color: #60FF04; /* Primary green */
+  color: #000000;
+}
+
+[data-bs-theme="dark"] .btn-cta:hover {
+  background-color: #4fd403;
+}
+
+/* ===== Responsive Adjustments ===== */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 80px;
+    justify-content: center; /* Center content on small screens */
+  }
+
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+
+  .hero-img {
+    margin-top: 20px;
+  }
+}

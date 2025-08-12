@@ -1,0 +1,38 @@
+:root {
+  --bs-primary: #60FF04; /* Green */
+  --bs-dark: #000000;    /* Black */
+}
+
+/* Navbar branding color */
+.navbar-brand {
+  color: var(--bs-primary) !important;
+}
+
+.navbar-brand:hover {
+  color: #4fd304 !important;
+}
+
+/* Social icons hover effect */
+.navbar a svg {
+  color: var(--bs-dark);
+  transition: color 0.3s ease;
+}
+
+[data-bs-theme="dark"] .navbar a svg {
+  color: white;
+}
+
+.navbar a svg:hover {
+  color: var(--bs-primary);
+}
+
+/* Theme toggle button */
+.btn-outline-secondary {
+  border-color: var(--bs-primary);
+  color: var(--bs-primary);
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--bs-primary);
+  color: var(--bs-dark);
+}

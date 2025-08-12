@@ -1,0 +1,72 @@
+/* Navbar Link Colors */
+.navbar-nav .nav-link {
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #60ff04;
+  cursor: pointer;
+}
+
+.navbar-nav .nav-link.active {
+  color: #000000 !important;
+}
+
+[data-bs-theme="dark"] .navbar-nav .nav-link.active {
+  color: #60ff04 !important;
+}
+
+/* Remove focus outline from navbar toggler */
+.navbar-toggler:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* Hamburger button */
+.custom-toggler {
+  border: none;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  width: 45px; /* Bigger clickable area */
+  height: 45px;
+  padding: 10px;
+  padding: 0;
+}
+
+.custom-toggler span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: #000000; /* Default black */
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+[data-bs-theme="dark"] .custom-toggler span {
+  background: #60ff04; /* Green in dark mode */
+}
+
+/* Hamburger to Cross Animation */
+.custom-toggler.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.custom-toggler.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.custom-toggler.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Theme toggle button */
+.theme-toggle-btn {
+  border: none;
+  background: transparent;
+  padding: 4px;
+  cursor: pointer;
+}
