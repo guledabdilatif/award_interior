@@ -1,0 +1,113 @@
+.footer-section {
+    padding: 50px 20px;
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    box-shadow: 0, 0, 20px 20px rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+   
+}
+
+[data-bs-theme="light"] .footer-section {
+    background: #fff;
+    color: #111;
+}
+
+/* Social */
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.footer-heading {
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    opacity: 0.85;
+    text-align: center;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-icons a {
+    color: var(--primary-color, #60ff04);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-icons a:hover {
+    color: #e89bb1;
+    transform: scale(1.15);
+}
+
+/* Main Layout */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 30px;
+    align-items: flex-start;
+}
+
+/* Brand */
+.footer-brand h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Quick Links */
+.footer-quicklinks {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-quicklinks ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.footer-quicklinks a {
+    text-decoration: none;
+    color: inherit;
+    opacity: 0.85;
+    font-size: 0.95rem;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.footer-quicklinks a:hover {
+    opacity: 1;
+    transform: translateX(4px);
+    color: var(--primary-color, #60ff04);
+}
+
+/* Bottom */
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-quicklinks ul {
+        align-items: center;
+    }
+}

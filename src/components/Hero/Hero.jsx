@@ -1,14 +1,16 @@
 import React from "react";
 import { Link } from "react-scroll";
 import "./Hero.css";
-
+import images from "../../images";
 export default function Hero() {
   return (
-    <section id="hero" className="hero-section">
+    <section id="hero" className="hero-section"
+   
+    >
       <div className="container">
         <div className="row align-items-center">
           {/* Left Content */}
-          <div className="col-md-6 text-center text-md-start mb-4 mb-md-0">
+          <div className="col-md-6 text-center text-md-start mb-4 mb-md-0 text-light">
             <h1 className="fw-bold animate__animated animate__fadeInDown">
               Transforming Spaces,
               <br />
@@ -30,13 +32,7 @@ export default function Hero() {
           </div>
 
           {/* Right Image */}
-          <div className="col-md-6 text-center animate__animated animate__fadeInRight">
-            <img
-              src="https://via.placeholder.com/500x400?text=Awaad+Interiors"
-              alt="Awaad Interiors"
-              className="img-fluid hero-img"
-            />
-          </div>
+         
         </div>
       </div>
     </section>

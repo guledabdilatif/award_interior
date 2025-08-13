@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { Instagram, Facebook, Moon, Sun } from "lucide-react";
 import "./Navbar.css";
-
+import logo from '../../assets/images/logo.png';
 export default function Navbar() {
   const [darkMode, setDarkMode] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -21,7 +21,7 @@ export default function Navbar() {
       <div className="container">
         {/* Logo */}
         <a className="navbar-brand fw-bold" href="#">
-          Awaad Interiors
+          <img src={logo} alt="" style={{width:'70px'}}/>
         </a>
 
         {/* Hamburger */}

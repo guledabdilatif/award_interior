@@ -1,24 +1,34 @@
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
+import About from './components/About/About'
+import Services from './components/Services/Services'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
+import Gallery from './components/Gallery/Gallery'
 
-function App() { 
+
+function App() {
 
   return (
-     <>
+    <>
       <Navbar />
-      <section id="hero" className="vh-100 d-flex align-items-center justify-content-center bg-light">
+      <section id="hero" className="d-flex align-items-center justify-content-center bg-light">
         <Hero />
       </section>
-      <section id="about" className="vh-100 d-flex align-items-center justify-content-center text-white">
-        {/* <About/> */}
+      <section id="about" className="d-flex align-items-center justify-content-center">
+        <About />
       </section>
-      <section id="services" className="vh-100 d-flex align-items-center justify-content-center bg-light">
-        <h1>Services Section</h1>
+      <section id="services" className="d-flex align-items-center justify-content-center ">
+        <Services />
       </section>
-      <section id="contact" className="vh-100 d-flex align-items-center justify-content-center bg-dark text-white">
-        <h1>Contact Section</h1>
+      <section id="contact" className="d-flex align-items-center justify-content-center">
+        <Contact />
       </section>
+      <section id="contact" className="d-flex align-items-center justify-content-center">
+        <Gallery />
+      </section>
+        <Footer />
     </>
   )
 }

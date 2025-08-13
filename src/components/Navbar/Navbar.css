@@ -8,6 +8,17 @@
   color: #60ff04;
   cursor: pointer;
 }
+/* Default (light mode) - original logo color */
+.navbar-brand img {
+  filter: none;
+  transition: filter 0.3s ease;
+}
+
+/* Dark mode - white logo */
+[data-bs-theme="dark"] .navbar-brand img {
+  filter: brightness(0) invert(1);
+}
+
 
 .navbar-nav .nav-link.active {
   color: #000000 !important;

@@ -1,13 +1,24 @@
 /* ===== Hero Section ===== */
 .hero-section {
   min-height: 100vh;
-  background-color: #ffffff; /* Light mode background */
-  padding-top: 100px; /* Space for fixed navbar */
+  background-color: #ffffff;
+  /* Light mode background */
+  padding-top: 100px;
+  /* Space for fixed navbar */
   display: flex;
   align-items: center;
-  justify-content: space-between !important; /* NEW - space between text & image */
+  justify-content: space-between !important;
+  /* NEW - space between text & image */
   width: 100% !important;
 }
+
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../assets/images/img10.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 
 /* Headings */
 .hero-section h1 {
@@ -17,30 +28,35 @@
 }
 
 .hero-section .highlight {
-  color: #60FF04; /* Brand green highlight */
+  color: #60FF04;
+  /* Brand green highlight */
 }
 
 /* Paragraph text */
 .hero-section p {
   font-size: 1.1rem;
-  color: #555;
+  color: #fff;
   max-width: 600px;
 }
 
 /* ===== CTA Button ===== */
 .btn-cta {
-  background-color: #60FF04 !important; /* Primary brand color */
+  background-color: #60FF04 !important;
+  /* Primary brand color */
   border: none;
-  color: #000000; /* Black text for contrast */
+  color: #000000;
+  /* Black text for contrast */
   font-weight: 600;
   padding: 12px 28px;
-  border-radius: 8px; /* Modern, slightly rounded edges */
+  border-radius: 8px;
+  /* Modern, slightly rounded edges */
   font-size: 1rem;
   transition: all 0.3s ease;
 }
 
 .btn-cta:hover {
-  background-color: #4fd403; /* Slightly darker on hover */
+  background-color: #4fd403;
+  /* Slightly darker on hover */
   transform: translateY(-2px);
 }
 
@@ -64,15 +80,19 @@
 
 /* ===== Dark Mode ===== */
 [data-bs-theme="dark"] .hero-section {
-  background-color: #000000;
+  background-color: #212529;
 }
 
 [data-bs-theme="dark"] .hero-section p {
-  color: #ccc;
+  color: #fff;
+}
+[data-bs-theme="light"] .hero-section p {
+  color: #fff;
 }
 
 [data-bs-theme="dark"] .btn-cta {
-  background-color: #60FF04; /* Primary green */
+  background-color: #60FF04;
+  /* Primary green */
   color: #000000;
 }
 
@@ -86,7 +106,8 @@
     flex-direction: column;
     text-align: center;
     padding-top: 80px;
-    justify-content: center; /* Center content on small screens */
+    justify-content: center;
+    /* Center content on small screens */
   }
 
   .hero-section h1 {
