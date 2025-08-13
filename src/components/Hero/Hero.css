@@ -7,7 +7,7 @@
   /* Space for fixed navbar */
   display: flex;
   align-items: center;
-  justify-content: space-between !important;
+  justify-content: center !important;
   /* NEW - space between text & image */
   width: 100% !important;
 }
@@ -109,6 +109,7 @@
     justify-content: center;
     /* Center content on small screens */
   }
+
 
   .hero-section h1 {
     font-size: 2rem;

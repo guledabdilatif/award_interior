@@ -8,7 +8,7 @@ export default function Hero() {
    
     >
       <div className="container">
-        <div className="row align-items-center">
+        <div className="row align-items-center justify-content-center d-flex h-100vh">
           {/* Left Content */}
           <div className="col-md-6 text-center text-md-start mb-4 mb-md-0 text-light">
             <h1 className="fw-bold animate__animated animate__fadeInDown">
@@ -31,7 +31,7 @@ export default function Hero() {
             </Link>
           </div>
 
-          {/* Right Image */}
+        
          
         </div>
       </div>

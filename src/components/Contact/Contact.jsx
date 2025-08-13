@@ -30,7 +30,7 @@ export default function Contact() {
             <div className="contact-bottom">
 
                 {/* Contact Links */}
-                <div className="contact-links" data-aos="fade-right">
+                <div className="contact-links" data-aos="fade-up">
                     <div className="contact-item modern-card">
                         <MessageCircle className="contact-icon" size={60} />
                         <div className="contact-text">
@@ -73,7 +73,7 @@ export default function Contact() {
                 </div>
 
                 {/* Contact Form */}
-                <div className="contact-form" data-aos="fade-left">
+                <div className="contact-form" data-aos="fade-up">
                     <h2>Get in <span>Touch</span></h2>
                     <form>
                         <input type="text" name="name" placeholder="Your Name" required />

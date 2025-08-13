@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <section id="hero" className="d-flex align-items-center justify-content-center bg-light">
+      <section id="hero" className="">
         <Hero />
       </section>
       <section id="about" className="d-flex align-items-center justify-content-center">
