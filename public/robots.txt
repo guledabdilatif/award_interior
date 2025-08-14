@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://awardinterior.vercel.app/sitemap.xml
