@@ -25,10 +25,10 @@ function App() {
       <section id="contact" className="d-flex align-items-center justify-content-center">
         <Contact />
       </section>
-      <section id="contact" className="d-flex align-items-center justify-content-center">
+      <section id="gallery" className="d-flex align-items-center justify-content-center">
         <Gallery />
       </section>
-        <Footer />
+      <Footer />
     </>
   )
 }

@@ -1,11 +1,11 @@
 import React from "react";
 import { Facebook, Instagram } from "lucide-react";
 import "./Footer.css";
-
+import logo from '../../assets/images/logo.png';
 const Footer = () => {
     return (
         <footer className="footer-section container">
-            
+
             {/* Social Media */}
             <div className="footer-contact">
                 <div className="social-links">
@@ -22,12 +22,12 @@ const Footer = () => {
             </div>
 
             {/* Main Content */}
-            <div className="footer-container">
+            <div className="footer-container" style={{ display: 'flex', alignItems: 'center', justifyContent:"space-around"}}>
 
                 {/* Brand */}
                 <div className="footer-brand">
-                    <h2 className="brand-name">Awaad Interior</h2>
-                    <p>Creative and functional interior solutions for every space.</p>
+                    <img src={logo} alt="" style={{width:"200px"}}/>
+                    <p style={{textAlign:'center'}}>Creative and functional interior <br /> solutions for every space.</p>
                 </div>
 
                 {/* Quick Links */}

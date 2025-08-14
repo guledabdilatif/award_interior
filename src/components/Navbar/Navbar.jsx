@@ -92,6 +92,18 @@ export default function Navbar() {
                 Contact
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                activeClass="active"
+                to="gallery"
+                smooth
+                duration={500}
+                spy={true}
+              >
+                Gallery
+              </Link>
+            </li>
           </ul>
 
           {/* Social + Theme toggle */}

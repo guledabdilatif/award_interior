@@ -60,10 +60,6 @@
 }
 
 /* Quick Links */
-.footer-quicklinks {
-    flex: 1;
-    min-width: 200px;
-}
 
 .footer-quicklinks ul {
     list-style: none;
@@ -97,6 +93,10 @@
     align-items: center;
     gap: 6px;
     font-size: 0.85rem;
+}
+
+[data-bs-theme="dark"] .footer-container img {
+  filter: brightness(0) invert(1);
 }
 
 /* Responsive */
