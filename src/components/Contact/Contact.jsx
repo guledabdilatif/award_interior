@@ -35,7 +35,7 @@ export default function Contact() {
                         <FaWhatsapp className="contact-icon" size={60}/>
                         <div className="contact-text">
                             <a href="https://wa.me/254726864735" target="_blank" rel="noopener noreferrer">
-                                0726 864 735
+                                0726 864 733
                             </a>
                             <a href="https://wa.me/254791233435" target="_blank" rel="noopener noreferrer">
                                 0791 233 435
@@ -54,7 +54,7 @@ export default function Contact() {
                     <div className="contact-item modern-card">
                         <Mail className="contact-icon" size={60} />
                         <div className="contact-text">
-                            <a href="mailto:awaadinterior@gmail.com">awaadinterior@gmail.com</a>
+                            <a href="mailto:awardinterior@gmail.com">awardinterior@gmail.com</a>
                         </div>
                     </div>
 

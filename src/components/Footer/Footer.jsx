@@ -14,7 +14,7 @@ const Footer = () => {
                         <a href="https://facebook.com/AwaadInteriors" target="_blank" rel="noopener noreferrer">
                             <Facebook size={28} />
                         </a>
-                        <a href="https://instagram.com/Awaadinteriors" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/awaadcabinets?igsh=MWxxOXNiYWpmNm8zag%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
                             <Instagram size={28} />
                         </a>
                     </div>

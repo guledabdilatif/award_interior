@@ -109,7 +109,7 @@ export default function Navbar() {
           {/* Social + Theme toggle */}
           <div className="d-flex align-items-center gap-3">
             <a
-              href="https://instagram.com/Awaadinteriors"
+              href="https://www.instagram.com/awaadcabinets?igsh=MWxxOXNiYWpmNm8zag%3D%3D&utm_source=qr"
               target="_blank"
               rel="noopener noreferrer"
             >
