@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Phone, Mail, MessageCircle, MapPin } from "lucide-react";
 import "./Contact.css";
-
+import { FaWhatsapp } from "react-icons/fa6";
 export default function Contact() {
     useEffect(() => {
         AOS.init({ duration: 1000, once: true });
@@ -32,7 +32,7 @@ export default function Contact() {
                 {/* Contact Links */}
                 <div className="contact-links" data-aos="fade-up">
                     <div className="contact-item modern-card">
-                        <MessageCircle className="contact-icon" size={60} />
+                        <FaWhatsapp className="contact-icon" size={60}/>
                         <div className="contact-text">
                             <a href="https://wa.me/254726864735" target="_blank" rel="noopener noreferrer">
                                 0726 864 735
